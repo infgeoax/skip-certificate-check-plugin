@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: openjdk:7-jdk-slim
+      - image: maven:3.6.0-jdk-7-alpine
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
